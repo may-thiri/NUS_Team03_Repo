@@ -11,7 +11,7 @@ import junit.framework.TestCase;
 public class ToDoListTest extends TestCase {
    // Define Test Fixtures
 	private ToDoList tdl;
-	private Task t1, t2;
+	private Task t1, t2, t3;
 
    public ToDoListTest() {
       super();
@@ -23,6 +23,7 @@ public class ToDoListTest extends TestCase {
 	   tdl = new ToDoList();
 	   t1 = new Task("Task 1", false);
 	   t2 = new Task("Task 2", true);
+	   t3 = new Task("Task 1", false);
    }
 
    @After
